@@ -1,0 +1,35 @@
+.transactionTable {
+    min-width: 800px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px grey;
+    padding: 5px;
+}
+
+th{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(12, 189, 205);
+    padding: 10px;
+}
+tr {
+    background-color: #fff;
+}
+tr:nth-child(2n) {
+    background-color: rgba(174, 173, 173, 0.562);
+}
+td {
+    padding: 10px;
+    text-align: center;
+   font-weight: normal;
+   font-size: 16px;
+   color: black;
+}
+.currency {
+    text-transform: uppercase;
+}
